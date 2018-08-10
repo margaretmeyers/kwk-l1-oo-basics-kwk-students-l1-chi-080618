@@ -27,7 +27,7 @@ class Book
     @genre
   end
   def turn_page
-    # puts ""
+    puts ""
   end 
 end
 
