@@ -2,12 +2,13 @@
 # Add you Book class here
 
 class Book 
+  attr_reader :title
   def initialize(title)
     @title = title
   end
-  def title
-    @title 
-  end
+  # def title
+  #   @title 
+  # end
   def author=(author)
     @author = author
   end 
