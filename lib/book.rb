@@ -32,7 +32,15 @@ class Book
   def turn_page
     puts "Flipping the page...wow, you read fast!"
   end 
+  def love 
+    puts "I love the author #{author
+  end
+
 end
+
+wonder = Book.new("Wonder")
+wonder.author = "RJ Palacio"
+
 
 
 
